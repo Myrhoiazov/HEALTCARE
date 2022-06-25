@@ -406,6 +406,7 @@ img {
   border-radius: 8px;
   padding: 13px;
   background-color: #fff;
+  box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
 }
 
 .form__input {
@@ -423,16 +424,7 @@ img {
   margin-right: 19px;
   color: rgba(117, 117, 117, 0.46);
   background-color: rgba(245, 246, 250, 0.52);
-  transition: all .4s;
-}
-
-.form__input:hover {
-  box-shadow: 0 5px 15px rgba(210, 210, 210, 0.5);
-}
-
-option {
-  border: none;
-  outline: none;
+  transition: all 0.4s;
 }
 
 .form__btn {
@@ -447,7 +439,7 @@ option {
 
 .form__btn:hover {
   box-shadow: 0 5px 15px rgba(64, 163, 248, 0.5);
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .form__icon {

@@ -42,9 +42,10 @@
   align-items: center;
 
   border-radius: 8px;
-
   padding: 13px;
   background-color: $white;
+
+  box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
 }
 
 .form__input {
@@ -68,19 +69,7 @@
   color: $text-accent;
   background-color: rgba(245, 246, 250, 0.52);
 
-  transition: all .4s;
-
-  &:hover{
-    box-shadow: 0 5px 15px rgba(210, 210, 210, 0.5);
-  }
-}
-
-.form__section{
-}
-
-option{
-    border: none;
-    outline: none;
+  transition: all 0.4s;
 }
 
 .form__btn {
@@ -95,10 +84,9 @@ option{
   padding: 12px 19px;
   margin-left: 31px;
 
-  &:hover{
+  &:hover {
     box-shadow: 0 5px 15px rgba(64, 163, 248, 0.5);
-    transition: all .4s;
-    ;
+    transition: all 0.4s;
   }
 }
 
@@ -107,7 +95,7 @@ option{
 
   transition: transform 0.4s;
 
-  .form__btn:hover &{
+  .form__btn:hover & {
     transform: scale(1.1);
   }
 }
