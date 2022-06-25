@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HEALTCARE</title>
-    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="/css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <a aria-label="Логотип" href="" class="logo">HEALTCARE <span class="logo__circle"></span> </a>
+          <a aria-label="Логотип" href="" class="logo"
+            >HEALTCARE <span class="logo__circle"></span>
+          </a>
           <nav class="nav">
             <ul class="nav__items">
               <li class="nav__item">
@@ -32,7 +34,86 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <ul class="hero__items">
+            <li class="hero__item">
+              <h1 class="hero__title">
+                Find And Search Your
+                <span class="hero__title-accent">Suitable Doctor’s</span>
+              </h1>
+              <p class="hero__text">
+                Join us and take care of yourself and your family with health
+                services that will make you feel confident and safe in your
+                daily life.
+              </p>
+
+              <form class="hero__form form">
+                <input
+                  class="form__input"
+                  type="search"
+                  name=""
+                  placeholder="Find your doctor"
+                />
+                <div class="form__input">
+                  <select class="form__select">
+                    <option class="form__select" value="">New York, USA</option>
+                    <option selected value="">Dnipro, Ukraine</option>
+                    <option value="">Kiev, Ukraine</option>
+                    <option value="">Lviv, Ukraine</option>
+                  </select>
+                </div>
+                <button class="form__btn">
+                  <svg class="form__icon" width="33" height="37">
+                    <use href="./images//symbol-defs.svg#icon-Search_button"></use>
+                  </svg>
+                </button>
+              </form>
+            </li>
+            <li class="hero__item">
+              <div class="hero__thumb">
+                <img
+                  class="hero__img"
+                  src=""
+                  alt="Фото девушки"
+                  aria-label="Фото девушки"
+                  width="420"
+                />
+              </div>
+              <ul class="hero__content">
+                <li class="hero__info">
+                  <a href="" class="hero__links"
+                    ><svg class="hero__icon">
+                      <use></use></svg
+                  ></a>
+                </li>
+                <li class="hero__info">
+                  <a href="" class="hero__links"
+                    ><svg class="hero__icon">
+                      <use></use></svg
+                  ></a>
+                </li>
+                <li class="hero__info">
+                  <a href="" class="hero__links"
+                    ><svg class="hero__icon">
+                      <use></use></svg
+                  ></a>
+                </li>
+                <li class="hero__hurt">
+                  <a href="" class="hero__links"
+                    ><svg class="hero__icon">
+                      <use></use></svg
+                  ></a>
+                </li>
+                <li class="hero__bio"></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

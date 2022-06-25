@@ -1,0 +1,9 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-Search_button" viewBox="0 0 29 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.1622" d="M22.307 11.066c1.379 5.105-1.642 10.36-6.747 11.739s-10.36-1.642-11.739-6.746 1.642-10.36 6.746-11.739c5.105-1.379 10.36 1.642 11.739 6.747z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1622" d="M18.050 12.952c-0.818-3.030-3.938-4.823-6.968-4.004"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1622" d="M23.755 23.183l3.315 3.357"></path>
+</symbol>
+</defs>
+</svg>
