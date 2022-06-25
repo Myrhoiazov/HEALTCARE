@@ -1,0 +1,23 @@
+.header {
+  background-color: rgb(236, 246, 251);
+  padding-top: 15px;
+  
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__btn {
+    color: white;
+    background-color: $brand-color;
+    border: none;
+
+    padding: 12px 28px;
+
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
