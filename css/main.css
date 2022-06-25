@@ -430,6 +430,11 @@ img {
   box-shadow: 0 5px 15px rgba(210, 210, 210, 0.5);
 }
 
+option {
+  border: none;
+  outline: none;
+}
+
 .form__btn {
   display: inline-flex;
   background-color: #40a3f8;
