@@ -1,9 +1,1 @@
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<defs>
-<symbol id="icon-Search_button" viewBox="0 0 29 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.1622" d="M22.307 11.066c1.379 5.105-1.642 10.36-6.747 11.739s-10.36-1.642-11.739-6.746 1.642-10.36 6.746-11.739c5.105-1.379 10.36 1.642 11.739 6.747z"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1622" d="M18.050 12.952c-0.818-3.030-3.938-4.823-6.968-4.004"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1622" d="M23.755 23.183l3.315 3.357"></path>
-</symbol>
-</defs>
-</svg>
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="icon-Search_button" viewBox="0 0 29 32"><path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-width="2.162" d="M22.307 11.066c1.379 5.105-1.642 10.36-6.747 11.739S5.2 21.163 3.821 16.059 5.463 5.699 10.567 4.32c5.105-1.379 10.36 1.642 11.739 6.747z"/><path fill="none" stroke="#fff" style="stroke:var(--color1, #fff)" stroke-linecap="round" stroke-width="2.162" d="M18.05 12.952a5.682 5.682 0 0 0-6.968-4.004M23.755 23.183l3.315 3.357"/></symbol><symbol id="icon-star" viewBox="0 0 32 32"><path d="M30.481 12.245a1.603 1.603 0 0 0-1.361-1.096l-.007-.001-8.702-.798-3.424-8.026a1.6 1.6 0 0 0-2.94-.01l-.004.01-3.43 8.026-8.691.785a1.6 1.6 0 0 0-.911 2.812l.002.002 6.569 5.758-1.937 8.527a1.6 1.6 0 0 0 2.388 1.724l-.007.004 7.499-4.478 7.488 4.48a1.6 1.6 0 0 0 2.381-1.739l.002.011-1.937-8.527 6.569-5.76a1.6 1.6 0 0 0 .464-1.709l.003.011-.013-.002z"/></symbol></defs></svg>

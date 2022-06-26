@@ -24,6 +24,9 @@
   &:hover{
     color: $brand-color;
   }
-}
-.nav__link-active {
+
+  &.active{
+    color: $brand-color;
+
+  }
 }

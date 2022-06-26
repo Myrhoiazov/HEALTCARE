@@ -296,6 +296,10 @@ a {
 
 img {
   display: block;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  height: auto;
 }
 
 .header {
@@ -315,6 +319,11 @@ img {
   padding: 12px 28px;
   border-radius: 5px;
   cursor: pointer;
+  transition: box-shadow .4s;
+}
+
+.header__btn:hover {
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -367,8 +376,19 @@ img {
   color: #40a3f8;
 }
 
+.nav__link.active {
+  color: #40a3f8;
+}
+
 .hero {
   background-color: #ecf6fb;
+  background-image: url(/images/bg/hero-shape.png);
+  background-position: 83% 50%;
+  background-repeat: no-repeat;
+  background-size: 33%;
+  position: relative;
+  padding-top: 254px;
+  padding-bottom: 193px;
 }
 
 .hero__items {
@@ -403,9 +423,12 @@ img {
 .form {
   display: inline-flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
   border-radius: 8px;
   padding: 13px;
   background-color: #fff;
+  max-width: 566px;
   box-shadow: 0px 4px 22px rgba(228, 245, 252, 0.3);
 }
 
@@ -419,12 +442,16 @@ img {
   padding: 17px 30px;
   border: none;
   border-radius: 8px;
-  max-width: 216px;
+  min-width: 216px;
   width: 100%;
-  margin-right: 19px;
+  margin-left: 19px;
   color: rgba(117, 117, 117, 0.46);
   background-color: rgba(245, 246, 250, 0.52);
   transition: all 0.4s;
+}
+
+.form__input:first-child {
+  margin-left: 0;
 }
 
 .form__btn {
@@ -434,7 +461,7 @@ img {
   border-radius: 8px;
   cursor: pointer;
   padding: 12px 19px;
-  margin-left: 31px;
+  margin-left: 20px;
 }
 
 .form__btn:hover {
@@ -449,5 +476,89 @@ img {
 
 .form__btn:hover .form__icon {
   transform: scale(1.1);
+}
+
+.hero__item {
+  width: calc((100% - 30px) / 2);
+  margin-right: 30px;
+}
+
+.hero__item:last-child {
+  margin-right: 0;
+}
+
+.hero__img {
+  position: absolute;
+  width: 850px;
+  bottom: 0;
+  right: 120px;
+}
+
+.hero__links {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+}
+
+.hero__links--phone {
+  position: absolute;
+  top: 230px;
+  right: 40%;
+}
+
+.hero__links--watsup {
+  position: absolute;
+  top: 180px;
+  right: 14%;
+}
+
+.hero__links--messege {
+  position: absolute;
+  top: 430px;
+  right: 42%;
+}
+
+.hero__hurt {
+  position: absolute;
+  top: 490px;
+  right: 10%;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.05);
+}
+
+.hero__hurt .hero__links {
+  display: inline-block;
+  width: 46px;
+  height: 44px;
+}
+
+.hero__hurt .hero__subtext {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #3E3E3E;
+}
+
+.hero__hurt .hero__subtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=main.css.map */
