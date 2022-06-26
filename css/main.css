@@ -314,6 +314,11 @@ img {
 .header {
   background-color: #ecf6fb;
   padding: 15px 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header__inner {
@@ -398,7 +403,7 @@ img {
   background-repeat: no-repeat;
   background-size: 33%;
   position: relative;
-  padding-top: 254px;
+  padding-top: 182px;
   padding-bottom: 193px;
 }
 
@@ -500,9 +505,9 @@ img {
 
 .hero__img {
   position: absolute;
-  width: 850px;
+  width: 750px;
   bottom: 0;
-  right: 120px;
+  right: 90px;
 }
 
 .hero__links {
@@ -530,7 +535,7 @@ img {
 .hero__links--messege {
   position: absolute;
   top: 430px;
-  right: 42%;
+  right: 40%;
 }
 
 .hero__hurt {
@@ -575,7 +580,7 @@ img {
 
 .hero__user {
   position: absolute;
-  top: 690px;
+  top: 600px;
   right: 33%;
   display: flex;
   align-items: center;
