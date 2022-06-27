@@ -253,23 +253,23 @@
               <aside class="portfolio service__portfolio">
                 <div class="portfolio__user">
                   <img
-                    src="./images/user/user-2.png"
+                    src="./images/user/user-man-2.png"
                     alt="Фото доктора"
+                    width="50" height="50"
                     class="portfolio__img"
-                    width="50"
                     aria-label="Фото доктора"
                   />
                   <div class="portfolio__content">
                     <h2 class="portfolio__title">Dr. Khalid Abbed</h2>
                     <p class="portfolio__text">
-                      Carddiologist (MBBS)<svg
-                        class="user__star"
-                        width="14"
-                        height="14"
+                      Carddiologist (MBBS)
+                      <span class="portfolio__col">
+                        <svg class="user__star" width="14" height="14">
+                          <use
+                            href="./images/symbol-defs.svg#icon-star"
+                          ></use></svg
+                        >5.0</span
                       >
-                        <use href="./images/symbol-defs.svg#icon-star"></use>
-                      </svg>
-                      <span class="portfolio__col">5.0</span>
                     </p>
                   </div>
                 </div>
@@ -292,9 +292,15 @@
                     <svg class="portfolio__icon" width="9" height="10">
                       <use
                         href="./images/symbol-defs.svg#icon-location"
-                      ></use></svg>Mayo Clinic Hospital
+                      ></use></svg
+                    >Mayo Clinic Hospital
                   </p>
                 </address>
+                <div class="portfolio__like">
+                  <svg class="portfolio__heart" width="17" height="16">
+                    <use href="./images/symbol-defs.svg#icon-heart"></use>
+                  </svg>
+                </div>
               </aside>
             </li>
             <li class="service__item">

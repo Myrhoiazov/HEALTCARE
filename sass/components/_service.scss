@@ -12,14 +12,15 @@
 }
 
 .service__item {
+  position: relative;
 }
 
 .service__thumb {
-  background-image: url(/images/bg/Shape-bc.png), url(/images/bg/squeare-bc.png);
+  background-image: url(/images/bg/Shape-bc.png), url(/images/bg/bc-blue-2.png), url(/images/bg/squeare-bc.png);
 
-  background-position: 0 100%, 20% 30%;
-  background-repeat: no-repeat, no-repeat;
-  background-size: contain, 30%;
+  background-position: 0 100%, 0 100%, 20% 30%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, contain, 30%;
 }
 .service__img {
   width: 545px;
@@ -33,42 +34,163 @@
 .user__bio {
   display: none;
 }
-.user__raiting {
-}
-.user__star {
-}
 .user__line {
 }
 .portfolio {
 }
 .service__portfolio {
+  position: absolute;
+
+  top: 45%;
+  left: -15%;
+  background-color: $white;
+  border-radius: 20px;
+  padding: 20px;
+
+  padding-top: 30px;
 }
 .portfolio__user {
-  display: none;
+  display: flex;
+  align-items: center;
 }
+
 .portfolio__img {
+width: 50px;
 }
-.portfolio__content {
+
+.portfolio__content{
+  margin-left: 10px;
+  margin-bottom: 8px;
 }
+
 .portfolio__title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.6;
+
+  color: $title;
 }
 .portfolio__text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+
+  color: $text;
 }
 .portfolio__col {
+  display: inline-flex;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+
+  color: $title;
+  .user__star {
+    height: 15px;
+    margin-right: 3px;
+  }
 }
 .portfolio-expereance {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 17px;
 }
 .portfolio-expereance__item {
+  text-align: center;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .portfolio-expereance__title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+
+  letter-spacing: 0.02em;
+
+  color: $text;
+
+  margin-bottom: 8px;
 }
 .portfolio-expereance__text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2;
+
+  color: #636481;
 }
 .portfolio__adress {
+  font-style: normal;
+  text-align: center;
 }
 .portfolio__location {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+
+  color: $text;
 }
 .portfolio__icon {
+  fill: none;
+  stroke: $text;
+
+  width: 10px;
+  height: 10px;
+
+  margin-right: 5px;
+}
+
+.portfolio__like {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(0deg, #ff6457, #ff6457), #ff6457;
+
+  &::after {
+    content: '';
+    position: absolute;
+
+    display: block;
+
+    z-index: 2;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(0deg, #FF917B, #FF917B), #FF6457;;
+  }
+}
+
+.portfolio__heart {
+  fill: none;
+
+  z-index: 3;
+
 }
 .servise__item {
 }
@@ -93,7 +215,6 @@
 
   margin-bottom: 10px;
 }
-
 
 .service__list {
   display: flex;
@@ -124,8 +245,8 @@
 }
 
 .service__list:last-child {
-    margin-bottom: 24px;
-  }
+  margin-bottom: 24px;
+}
 
 .service__button {
   display: inline-flex;
