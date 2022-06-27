@@ -1,0 +1,152 @@
+.service {
+  padding-bottom: 200px;
+}
+.service__items {
+  display: flex;
+  justify-content: space-between;
+
+  & .service__item + .service__item {
+    padding-left: 100px;
+    padding-top: 90px;
+  }
+}
+
+.service__item {
+}
+
+.service__thumb {
+  background-image: url(/images/bg/Shape-bc.png), url(/images/bg/squeare-bc.png);
+
+  background-position: 0 100%, 20% 30%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, 30%;
+}
+.service__img {
+  width: 545px;
+}
+.hero__user {
+  display: none;
+}
+.user__img {
+  display: none;
+}
+.user__bio {
+  display: none;
+}
+.user__raiting {
+}
+.user__star {
+}
+.user__line {
+}
+.portfolio {
+}
+.service__portfolio {
+}
+.portfolio__user {
+  display: none;
+}
+.portfolio__img {
+}
+.portfolio__content {
+}
+.portfolio__title {
+}
+.portfolio__text {
+}
+.portfolio__col {
+}
+.portfolio-expereance {
+}
+.portfolio-expereance__item {
+}
+.portfolio-expereance__title {
+}
+.portfolio-expereance__text {
+}
+.portfolio__adress {
+}
+.portfolio__location {
+}
+.portfolio__icon {
+}
+.servise__item {
+}
+.servise__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+
+  color: $title;
+
+  margin-bottom: 24px;
+}
+.service__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+
+  letter-spacing: 0.02em;
+
+  color: $text;
+
+  margin-bottom: 10px;
+}
+
+
+.service__list {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: $title;
+
+  letter-spacing: 0.02em;
+
+  margin-bottom: 14px;
+
+  &::before {
+    content: '';
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url(/images/icon/icon-cheked.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-right: 17px;
+  }
+}
+
+.service__list:last-child {
+    margin-bottom: 24px;
+  }
+
+.service__button {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  border-radius: 5px;
+
+  letter-spacing: 0.02em;
+
+  color: $white;
+
+  background-color: $brand-color;
+
+  padding: 10px 20px;
+}
+.service__icon {
+  display: inline-block;
+  margin-left: 5px;
+}
