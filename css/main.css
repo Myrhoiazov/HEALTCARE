@@ -896,7 +896,7 @@ img {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/images/icon/icon-cheked.svg);
+  background-image: url(../images/icon/icon-cheked.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
