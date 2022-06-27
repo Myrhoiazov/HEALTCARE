@@ -700,6 +700,12 @@ img {
   position: relative;
 }
 
+.service__item .hero__user {
+  position: absolute;
+  top: 140px;
+  right: -20px;
+}
+
 .service__thumb {
   background-image: url(/images/bg/Shape-bc.png), url(/images/bg/bc-blue-2.png), url(/images/bg/squeare-bc.png);
   background-position: 0 100%, 0 100%, 20% 30%;
@@ -707,20 +713,8 @@ img {
   background-size: contain, contain, 30%;
 }
 
-.service__img {
+.service__thumb .service__img {
   width: 545px;
-}
-
-.hero__user {
-  display: none;
-}
-
-.user__img {
-  display: none;
-}
-
-.user__bio {
-  display: none;
 }
 
 .service__portfolio {
@@ -896,7 +890,7 @@ img {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(../images/icon/icon-cheked.svg);
+  background-image: url(/images/icon/icon-cheked.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

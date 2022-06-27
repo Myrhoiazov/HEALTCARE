@@ -13,6 +13,12 @@
 
 .service__item {
   position: relative;
+
+  .hero__user {
+  position: absolute;
+  top: 140px;
+  right: -20px;
+  }
 }
 
 .service__thumb {
@@ -21,23 +27,13 @@
   background-position: 0 100%, 0 100%, 20% 30%;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: contain, contain, 30%;
+
+  .service__img {
+    width: 545px;
+  }
 }
-.service__img {
-  width: 545px;
-}
-.hero__user {
-  display: none;
-}
-.user__img {
-  display: none;
-}
-.user__bio {
-  display: none;
-}
-.user__line {
-}
-.portfolio {
-}
+
+
 .service__portfolio {
   position: absolute;
 
@@ -235,7 +231,7 @@ width: 50px;
     width: 20px;
     height: 20px;
 
-    background-image: url(../images/icon/icon-cheked.svg);
+    background-image: url(/images/icon/icon-cheked.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
